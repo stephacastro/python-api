@@ -1,0 +1,2 @@
+# python-api
+fastapi, uvicorn
