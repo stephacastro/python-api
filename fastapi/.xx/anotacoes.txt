@@ -1,0 +1,19 @@
+
+**************************************************** PONTOS IMPORTANTES ****************************************************
+
+put - create ( usado para atualizar um recurso existentes (individual) )
+    - usado para atualizar um recurso existente na coleção
+    - não usado em recursos de coleções, somente em individuais (exemplo: recurso (produtos - atualizar o produto do id 01))
+
+get - read ( pode ser utulizado para coleçõe e tbm para apenas um recurso )
+    - usado para trazer uma coleção de recursos e tbm recursos individuais 
+    - retorna os recursos solicitados (exemplo: uma lista de produtos)
+
+post - update ( pode ser usado para acessar uma coleção de recursos quanto um recurso individual )
+    - usado para criar/adicionar um novo recurso no recurso (exemplo: recurso(produtos - criar mais um produto em produtos))
+    - sempre usado na coleção, nunca usado individualmente
+
+delete - delete ( deleta um curso existente )
+    - usado para excluir um recurso existente na coleção
+    - (exemplo: recurso -> (produtos - deletar o produto do id 01))
+
